@@ -1,0 +1,30 @@
+$contents-min-width: 1159px; // total 1360px (contents: 1159px + left menu:201px)
+$border-radius-default: 4px;
+
+$xSmall: 20px;
+$small: 28px;
+$normal: 36px;
+$large: 44px;
+$xLarge: 52px;
+
+:root {
+  --contents-min-width: #{$contents-min-width};
+  --border-radius-default: #{$border-radius-default};
+
+  --xSmall: #{$xSmall};
+  --small: #{$small};
+  --normal: #{$normal};
+  --large: #{$large};
+  --xLarge: #{$xLarge};
+}
+
+:export {
+  contentsMinWidth: #{$contents-min-width};
+  borderRadiusDefault: #{$border-radius-default};
+
+  xSmal: #{$xSmall};
+  small: #{$small};
+  normal: #{$normal};
+  large: #{$large};
+  xLarge: #{$xLarge};
+}
